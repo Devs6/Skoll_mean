@@ -5,6 +5,7 @@ const Profile=require('../models/userProfile')
 const mongoose=require('mongoose');
 const jwt=require('jsonwebtoken')
 const { register } = require('ts-node');
+
 mongoose.connect("mongodb+srv://skoll:t1TweQm5e3tJFwOQ@cluster0-1yfzg.mongodb.net/noone?retryWrites=true&w=majority")
 .then(()=>{
     console.log("connected")
