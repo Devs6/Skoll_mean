@@ -1,0 +1,32 @@
+
+
+<div *ngFor="let data of show">
+  <mat-card  class="card">
+
+    <form   class="example-form" >
+      <mat-form-field  class="example-full-width">
+        <mat-label>Name</mat-label>
+        <input   value= {{data.name}} name="name"  matInput placeholder="" type="text" disabled >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Address</mat-label>
+        <input value= {{data.address}} name="address" matInput placeholder=""  type="text" disabled>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input value= {{data.email}} name="email" matInput placeholder=""  type="text" disabled>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Phone No</mat-label>
+        <input value= {{data.phone}} name="phone" matInput placeholder=""  type="tel" disabled>
+      </mat-form-field><br>
+        <button mat-raised-button color="primary" class="button" (click)="signOut()">SignOut</button>
+      </form>
+
+  </mat-card>
+</div>
+<!-- <app-dashboard (msg)="receive($event)"></app-dashboard> -->
+
+
+<!-- <button mat-raised-button color="primary" class="button" (click)="signOut()">Logout</button> -->

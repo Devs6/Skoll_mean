@@ -1,0 +1,30 @@
+.card{
+  width: auto;
+  height: auto;
+
+  box-shadow: 2px 1px 2px 0.3px ;
+  margin-left: 40%;
+  margin-top: 18%;
+}
+.background{
+background-color: blueviolet;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  margin-left: 30px;
+  margin-top: 40px;
+  width: 80%;
+}
+
+.button{
+  margin-top: 20px;
+  margin-left: 140px;
+}
+.bodybg-color {
+  background-color: #ccc;
+}

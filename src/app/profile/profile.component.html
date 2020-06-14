@@ -1,0 +1,30 @@
+
+
+<mat-card class="card">
+
+  <form class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Name</mat-label>
+      <input [(ngModel)]="userDetail.name" name="name" matInput placeholder="" type="text" required>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Address</mat-label>
+      <input [(ngModel)]="userDetail.address" name="address" matInput placeholder=""  type="text" required>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Email</mat-label>
+      <input [(ngModel)]="userDetail.email" name="email"  matInput placeholder=""  type="text" required>
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Phone No</mat-label>
+      <input [(ngModel)]="userDetail.phone" name="phone" matInput placeholder=""  type="tel" required>
+    </mat-form-field>
+      <button mat-raised-button color="primary" class="button" (click)="submit()">Submit</button>
+    </form>
+ 
+</mat-card>
+<div>
+  <!-- <app-dashboard [userDetail]="userDetail"></app-dashboard> -->
+</div>
+<!-- <p>hi</p> -->
